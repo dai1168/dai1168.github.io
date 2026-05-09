@@ -1,0 +1,12 @@
+/* 字体渲染优化（和xaoxuu.com同款） */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 代码字体优化 */
+code, pre {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
