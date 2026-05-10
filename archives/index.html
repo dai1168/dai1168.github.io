@@ -45,7 +45,26 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Website","@id":"https://dai1168.github.io","author":{"@type":"Person","name":"dai","sameAs":[]},"name":"dai","description":"","url":"https://dai1168.github.io"}</script>
   
 </head>
-<body>
+
+  <style>
+    /* 本地加载霞鹜文楷细体，100%生效 */
+    @font-face {
+      font-family: 'myfont';
+      src: url('/fonts/LXGWWenKaiGB-Light.ttf') format('truetype');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* 全局强制覆盖所有字体 */
+    * {
+      font-family: 'myfont', sans-serif !important;
+      font-weight: 300 !important;
+      line-height: 1.7 !important;
+      letter-spacing: 0.3px !important;
+    }
+  </style>
+  <body>
 
 <div class="l_body index" id="start" layout="undefined" type="undefined" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
 
